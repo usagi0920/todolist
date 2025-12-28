@@ -6,21 +6,45 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.5",
+    "@mui/x-date-pickers": "^8.21.0",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.19",
+    "next": "16.0.0",
     "react": "19.2.0",
-    "react-dom": "19.2.0",
-    "next": "16.0.0"
+    "react-dom": "19.2.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@types/styled-components": "^5.1.36",
     "eslint": "^9",
-    "eslint-config-next": "16.0.0"
-  }
+    "eslint-config-next": "16.0.0",
+    "styled-components": "^6.1.19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usagi0920/todolist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/usagi0920/todolist/issues"
+  },
+  "homepage": "https://github.com/usagi0920/todolist#readme"
 }
